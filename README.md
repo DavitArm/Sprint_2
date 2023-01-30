@@ -1,1 +1,11 @@
 # qa_python
+
+# test_add_new_book_add_two_books
+# test_add_new_book_cant_if_add_same_book
+# test_set_book_rating_cant_if_the_book_is_not_listed
+# test_set_book_rating_cant_if_rate_less_than_one
+# test_set_book_rating_cant_if_rate_more_than_ten
+# test_get_book_rating_book_not_added_has_no_rating
+# test_add_book_in_favorites
+# test_add_book_in_favorites_cant_if_book_not_in_dictionary
+# test_delete_book_from_favorites
