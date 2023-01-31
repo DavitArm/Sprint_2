@@ -36,7 +36,7 @@ class TestBooksCollector:
     def test_add_book_in_favorites(self, collector):
         collector.add_new_book('Гордость и предубеждение и зомби')
         collector.add_book_in_favorites('Гордость и предубеждение и зомби')
-        assert len(collector.get_list_of_favorites_books()) == 1
+        assert collector.get_list_of_favorites_books() == ['Гордость и предубеждение и зомби']
 
     def test_add_book_in_favorites_cant_if_book_not_in_dictionary(self, collector):
         collector.add_new_book('Гордость и предубеждение и зомби')
